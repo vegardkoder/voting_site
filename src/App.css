@@ -1,38 +1,125 @@
 .App {
   text-align: center;
+  background-color: black;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top-bar {
+  padding: 20px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /*position:absolute;
+  top: 0px;
+  left:0px;
+  width: 100%;
+  background-color: red;*/
+}
+a {
+  margin: 10px;
+}
+.left-top-bar {
+  margin-left: 50px;
+  font-size: 16px;
+  color: #FFFFFF66;
+
+}
+.right-top-bar {
+
+}
+
+.login-button {
+  background-color: #1D4BEE;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 16px;
+  height: 40px;
+  width: 74px;
+}
+
+.main-section {
+  margin: auto;
+  text-align: left;
+  width: 790px;
+}
+
+.main-header {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.branch-options-div {
+  display: flex;
+  justify-content: start;
+}
+.branch-option-button {
+  background-color: #FFFFFF00;
+  color: white;
+  border: 0px;
+  padding-bottom: 15px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.branch-option-button-selected {
+  border-bottom: 1px solid blue;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-bar {
+  background-color: #FFFFFF0D;
+  color: #FFFFFF80;
+  border-radius: 10px;
+  border: 0px;
+  margin-top: 25px;
+  padding-left: 30px;
+  font-size: 16px;
+  height: 64px;
+  width: 100%;
+}
+
+.subsection-header {
+  color: white;
+  font-size: 32px;
+}
+
+.sub-subsection-header {
+  font-size: 16;
+  color: #FFFFFF66;
+}
+
+.bot-section {
+  height: 144px;
+  background-color: #FFFFFF1A;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.bot-section-button {
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #FFFFFF1A;
+}
+.bot-section-pic {
+  border-radius: 50px;
+  width: 96px;
+  height: 96px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.bot-section-header {
+  font-size: 20px;
+  color: white;
+}
+.bot-section-description {
+  font-size: 13px;
+  color: #FFFFFF99;
+}
+.bot-section-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
