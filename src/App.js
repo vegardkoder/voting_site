@@ -1,6 +1,8 @@
 import './App.css';
 import React, { useState } from 'react';
-import profile_pic from './imgs/profile_pic.png';
+import profile_pic from './imgs/de_pic.png';
+import discordbots from './discordbots.json';
+
 function App() {
 
   const [branchSelected, setBranchSelected] = useState("db");
@@ -35,22 +37,34 @@ function App() {
         </div>
         <input type="text" placeholder="Search for the top bots in Discord..." className="search-bar"></input>
 
-        <h1 className="subsection-header">Top Discord Bots & Discord Apps</h1>
-        <h2 className="sub-subsection-header">Top voted bots on Voting.gg</h2>
+        <div>
+          <div>
+            <h1 className="subsection-header">Top Discord Bots & Discord Apps</h1>
+            <h2 className="sub-subsection-header">Top voted bots on Voting.gg</h2>
+          </div>
+          <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+          </select> 
+        </div>
+        
 
         <div className="bots-section">
-          <div className="bot-section">
-            <img src={profile_pic} className="bot-section-pic"/>
-            <div>
-              <h3 className='bot-section-header'>Battle Master</h3>
-              <p className='bot-section-description'>Descripting all sort of things about this bot.</p>
+          { discordbots && discordbots.map(({title, description, image}) => (
+            <div className="bot-section">
+              <img src={image} className="bot-section-pic"/>
+              <div>
+                <h3 className='bot-section-header'>{title}</h3>
+                <p className='bot-section-description'>{description}</p>
+              </div>
+              <div className='bot-section-buttons'>
+                <button className='bot-section-button'>Invite</button>
+                <button className='bot-section-button'>Vote</button>
+              </div>
             </div>
-            <div className='bot-section-buttons'>
-              <button className='bot-section-button'>Invite</button>
-              <button className='bot-section-button'>Vote</button>
-            </div>
-          </div>
-
+          ))}
         </div>
 
       </div>

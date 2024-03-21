@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Battle Master",
+        "description": "Bringing turn based combat systems straight to your discord server! Battle against your friends, original characters and more!",
+        "image": "/static/media/battle_pic.bb120739435462f517a9.png",
+        "users": 924,
+        "rating": 4.2,
+        "votes": 7
+    },
+    {
+        "title": "Dank Memer",
+        "description": "A global currency game for collection items, getting rich, robbing friends, taking care of virtual pets, gambling, and so much more.",
+        "image": "/static/media/dank_pic.2a1b7b12cd54b0fe0b51.png",
+        "users": 924,
+        "rating": 4.2,
+        "votes": 7
+    },
+    {
+        "title": "Dream Team",
+        "description": "O Primeiro e único simulador brasileiro de futebol",
+        "image": "/static/media/de_pic.78e54b0ebb7c5574bcc8.png",
+        "users": 924,
+        "rating": 4.2,
+        "votes": 7
+    }
+]
