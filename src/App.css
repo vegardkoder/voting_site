@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: black;
+  background-color: black; 
   width: 100%;
   height: 100%;
 }
@@ -23,10 +23,13 @@ a {
   margin-left: 50px;
   font-size: 16px;
   color: #FFFFFF66;
-
 }
-.right-top-bar {
+.left-top-bar a:hover {
+  opacity: 0.9;
+}
 
+.right-top-bar img:hover {
+  opacity: 0.9;
 }
 
 .login-button {
@@ -95,14 +98,23 @@ a {
   position: relative;
   margin-bottom: 2px;
 }
+.bot.section-main {
+  position: relative;
+}
 .bot-section-button {
   height: 40px;
   border: 0px;
   border-radius: 10px;
   margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 16px;
   color: white;
   background-color: #FFFFFF1A;
+  vertical-align: middle;
+}
+.bot-section-button:hover {
+  opacity: 0.9;
 }
 .bot-section-pic {
   border-radius: 50px;
@@ -114,6 +126,14 @@ a {
 .bot-section-header {
   font-size: 20px;
   color: white;
+  margin-bottom: 5px;
+}
+.bot-section-info {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: white;
+  height: 20px;
 }
 .bot-section-description {
   font-size: 13px;
@@ -123,4 +143,52 @@ a {
   position: absolute;
   top: 20px;
   right: 20px;
+}
+
+
+.content-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sorting-selector {
+  position: relative;
+}
+.selected-item {
+  height: 48px;
+  width: 142px;
+  border-radius: 10px;
+  background-color: #FFFFFF0D;
+  color: white;
+
+  display: flex;
+}
+.selected-item:hover {
+  opacity: 0.9;
+}
+.selected-item-text {
+  margin: auto;
+  margin-left: 0px;
+}
+.selector-icon {
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+.down-arrow {
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+.selector-item {
+  position: absolute;
+  height: 48px;
+  width: 142px;
+  border: 1px solid #1D4BEE;
+  background-color: black;
+  color: white;
+  z-index: 5;
+
+  display: flex;
 }

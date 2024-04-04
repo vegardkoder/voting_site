@@ -1,6 +1,6 @@
 [
     {
-        "title": "Battle Master",
+        "title": "Minecraft 1",
         "description": "Bringing turn based combat systems straight to your discord server! Battle against your friends, original characters and more!",
         "image": "/static/media/battle_pic.bb120739435462f517a9.png",
         "users": 723,
@@ -8,7 +8,7 @@
         "votes": 2
     },
     {
-        "title": "Dank Memer",
+        "title": "Minecraft 2",
         "description": "A global currency game for collection items, getting rich, robbing friends, taking care of virtual pets, gambling, and so much more.",
         "image": "/static/media/dank_pic.2a1b7b12cd54b0fe0b51.png",
         "users": 924,
@@ -16,7 +16,7 @@
         "votes": 7
     },
     {
-        "title": "Dream Team",
+        "title": "Minecraft 3",
         "description": "O Primeiro e único simulador brasileiro de futebol",
         "image": "/static/media/de_pic.78e54b0ebb7c5574bcc8.png",
         "users": 34,
